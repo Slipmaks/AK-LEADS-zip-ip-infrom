@@ -2,6 +2,13 @@
   <div>
     <div v-if="dataLoaded" class="py-2 text-center">
       <div>
+        <a
+          href="https://github.com/Slipmaks/AK-LEADS-zip-ip-infrom"
+          target="_blank"
+          >Project Git source</a
+        >
+      </div>
+      <div>
         <span class="footer-h2">User agent: </span>
         <span class="footer-p"
           >{{ store.userAgentGetter.client.type }}
